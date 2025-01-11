@@ -1,6 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
+
+use App\Http\Requests\StoreUsuarioRequest;
+use App\Http\Requests\UpdateUsuarioRequest;
 use Illuminate\Validation\ValidationException;
 use App\Models\Usuario;
 use Illuminate\Http\Request;
@@ -39,7 +42,7 @@ public function edit($id)
     }
 
     // Criar um novo usuário
-    public function store(Request $request)
+    public function store(StoreUsuarioRequest $request)
     {
         try {
             $messages = [
@@ -69,7 +72,7 @@ public function edit($id)
 
     // Atualizar um usuário
 
-    public function update(Request $request, $id)
+    public function update(UpdateUsuarioRequest $request, $id)
     {
         $usuario = Usuario::find($id);
 

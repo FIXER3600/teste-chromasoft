@@ -33,6 +33,7 @@
             <small>Deixe em branco se não quiser alterar</small>
         </div>
         <button type="submit" class="btn btn-primary">Atualizar</button>
+        <a href="{{ route('usuarios.index') }}" class="btn btn-secondary">Voltar</a> <!-- Botão de Voltar -->
     </form>
 </div>
 @endsection

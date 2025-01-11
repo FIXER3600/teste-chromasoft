@@ -31,6 +31,7 @@
                 <input type="password" class="form-control" id="senha" name="senha" required>
             </div>
             <button type="submit" class="btn btn-primary">Cadastrar</button>
+            <a href="{{ route('usuarios.index') }}" class="btn btn-secondary">Voltar</a> <!-- Botão de Voltar -->
         </form>
     </div>
 @endsection

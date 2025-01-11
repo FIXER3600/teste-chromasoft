@@ -6,7 +6,7 @@
     <div class="container mt-5">
         <div class="d-flex justify-content-between">
         <h1>Lista de Usuários</h1>
-        <a href="{{ route('usuarios.create') }}" class="btn btn-success mb-3">Cadastrar Novo Usuário</a>
+        <a href="{{ route('usuarios.create') }}" class="btn btn-success mb-3">Novo Usuário</a>
         </div>
         <table class="table table-bordered">
             <thead>

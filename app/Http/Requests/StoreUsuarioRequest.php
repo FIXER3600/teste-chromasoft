@@ -6,23 +6,30 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class StoreUsuarioRequest extends FormRequest
 {
-    /**
-     * Determine if the user is authorized to make this request.
-     */
-    public function authorize(): bool
+    public function authorize()
     {
-        return false;
+        return true;
     }
 
-    /**
-     * Get the validation rules that apply to the request.
-     *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
-     */
-    public function rules(): array
+    public function rules()
     {
         return [
-            //
+            'nome' => 'required|string|min:3|max:255',
+            'email' => 'required|email|unique:usuarios,email',
+            'senha' => 'required|string|min:6',
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'nome.required' => 'Por favor, insira o nome do usuário.',
+            'nome.min' => 'Nome precisa ter ao menos 3 caracteres.',
+            'email.required' => 'O campo email é obrigatório.',
+            'email.email' => 'Por favor, insira um endereço de email válido.',
+            'email.unique' => 'Este email já está em uso.',
+            'senha.required' => 'O campo senha é obrigatório.',
+            'senha.min' => 'A senha deve ter no mínimo :min caracteres.',
         ];
     }
 }
