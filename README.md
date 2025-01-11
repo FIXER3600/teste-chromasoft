@@ -61,13 +61,22 @@ Adicione imagens ou vídeos do funcionamento do sistema aqui.
    git clone https://github.com/FIXER3600/teste-chromasoft.git
    ```
 
-2. **Instale as dependências do Composer**: ```bash composer install ``` 
+2. **Instale as dependências do Composer**: 
+```bash 
+composer install 
+``` 
 
-3. **Configure suas variáveis de ambiente**: `.env.example` para `.env` e configure suas variáveis de ambiente.
+3. **Configure suas variáveis de ambiente**: `.env.example` para `.env` e configure as variáveis de ambiente.
 
-4. **Gere a chave da aplicação**: ```bash php artisan key:generate ``` 
+4. **Gere a chave da aplicação**: 
+```bash 
+php artisan key:generate 
+``` 
 
-5. **Execute as migrations e seeders**: ```bash php artisan migrate --seed ```
+5. **Execute as migrations e seeders**: 
+```bash 
+php artisan migrate --seed 
+```
 
 
 6. **Rodar o servidor**:
