@@ -14,7 +14,7 @@ class UsuarioController extends Controller
     // Exibir a lista de usuários
     public function index()
     {
-        $usuarios = Usuario::paginate(10);
+        $usuarios = Usuario::all();
         return view('usuarios.index', compact('usuarios'));
     }
 

@@ -5,9 +5,10 @@
 @section('content')
     <div class="container mt-5">
         <div class="d-flex justify-content-between">
-        <h1>Lista de Usuários</h1>
-        <a href="{{ route('usuarios.create') }}" class="btn btn-success mb-3">Novo Usuário</a>
+            <h1>Lista de Usuários</h1>
+            <a href="{{ route('usuarios.create') }}" class="btn btn-success mb-3">Novo Usuário</a>
         </div>
+
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -17,7 +18,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach ($usuarios as $usuario)
+                @forelse ($usuarios as $usuario)
                     <tr>
                         <td>{{ $usuario->nome }}</td>
                         <td>{{ $usuario->email }}</td>
@@ -27,7 +28,11 @@
                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal" data-id="{{ $usuario->id }}" data-nome="{{ $usuario->nome }}">Deletar</button>
                         </td>
                     </tr>
-                @endforeach
+                @empty
+                    <tr>
+                        <td colspan="3" class="text-center">Nenhum usuário cadastrado</td>
+                    </tr>
+                @endforelse
             </tbody>
         </table>
     </div>
@@ -55,7 +60,6 @@
         </div>
     </div>
 
-    <!-- Script para atualizar a URL do formulário de deleção e o nome do usuário no modal -->
     <script>
         const deleteModal = document.getElementById('deleteModal')
         deleteModal.addEventListener('show.bs.modal', function (event) {
