@@ -1,6 +1,3 @@
-Aqui está o arquivo `README.md` para o seu projeto de teste prático:
-
-```markdown
 # Teste Prático - Desenvolvedor Web Júnior
 
 🎯 **Objetivo**: Avaliar seus conhecimentos em PHP, HTML, CSS, JavaScript e MySQL através do desenvolvimento de um sistema web simples e funcional. Tanto o backend quanto o frontend serão criteriosamente avaliados.
@@ -112,21 +109,4 @@ Adicione imagens ou vídeos do funcionamento do sistema aqui.
 - **routes/web.php**: Definição das rotas (se estiver usando Laravel).
 - **.env**: Arquivo de configuração do ambiente.
 
-## 🧑‍💻 Contribuições
 
-Sinta-se à vontade para contribuir com melhorias no projeto. Caso tenha sugestões ou correções, abra uma **issue** ou envie um **pull request**!
-
----
-
-**Boa sorte!** 🎉
-```
-
-### Explicação:
-
-- O arquivo `README.md` começa com uma descrição do projeto e o objetivo do teste prático.
-- Incluímos a descrição das funcionalidades, tecnologias e requisitos do sistema, detalhando cada uma das etapas que você implementou.
-- Também inclui uma seção para **demonstração do projeto** onde você pode adicionar imagens ou vídeos mostrando o funcionamento do sistema.
-- A seção **Como Rodar o Projeto** é uma instrução clara de como o usuário pode rodar o projeto localmente, com todos os passos necessários.
-- Por fim, há uma estrutura básica do projeto e uma sugestão de como contribuir.
-
-Você pode personalizar as imagens e vídeos com links reais quando os tiver!
