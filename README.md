@@ -1,66 +1,132 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Aqui está o arquivo `README.md` para o seu projeto de teste prático:
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+```markdown
+# Teste Prático - Desenvolvedor Web Júnior
 
-## About Laravel
+🎯 **Objetivo**: Avaliar seus conhecimentos em PHP, HTML, CSS, JavaScript e MySQL através do desenvolvimento de um sistema web simples e funcional. Tanto o backend quanto o frontend serão criteriosamente avaliados.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Desafio
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Desenvolver um sistema de cadastro de usuários.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Funcionalidades
 
-## Learning Laravel
+Você deve criar um sistema web que permita:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. Cadastro de novos usuários.
+2. Listagem dos usuários cadastrados.
+3. Edição e exclusão de usuários.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Tecnologias Utilizadas
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Frontend**: HTML, CSS e JavaScript.
+- **Backend**: PHP puro ou utilizando o framework Laravel.
+- **Banco de Dados**: MySQL.
 
-## Laravel Sponsors
+## 📝 Requisitos do Sistema
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 1. Página de Cadastro:
+- Campos: Nome, E-mail, Senha.
+- Validação de campos obrigatórios.
 
-### Premium Partners
+### 2. Página de Listagem de Usuários:
+- Exibir uma tabela com as colunas: Nome, E-mail e Ações (Editar/Excluir).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### 3. Funcionalidades de Edição e Exclusão:
+- Permitir editar os dados do usuário.
+- Permitir excluir um usuário.
 
-## Contributing
+### 4. Validações:
+- O **e-mail** deve ser único (não permitir cadastro duplicado).
+- **Senha** com pelo menos 6 caracteres.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 5. Banco de Dados (MySQL):
+- Tabela `usuarios` com os campos: `id`, `nome`, `email`, `senha`.
 
-## Code of Conduct
+## 📐 Critérios de Avaliação
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1. **Organização e estrutura do código**: Código bem estruturado, legível e com boas práticas de organização.
+2. **Funcionalidade do sistema**: O sistema deve funcionar corretamente, permitindo realizar as operações de cadastro, listagem, edição e exclusão de usuários.
+3. **Uso correto das tecnologias solicitadas**: Utilização adequada de HTML, CSS, JavaScript, PHP (ou Laravel) e MySQL.
+4. **Boas práticas de programação**: Utilização de boas práticas como nomeação de variáveis, funções, e organização de arquivos.
+5. **Validação e tratamento de erros**: Implementação de validações tanto no frontend quanto no backend, com mensagens de erro claras e úteis.
+6. **Qualidade do frontend**: Design intuitivo, responsividade e usabilidade.
+7. **Implementação eficiente do backend**: Implementação segura, com boas práticas de performance, segurança e estrutura no backend.
 
-## Security Vulnerabilities
+## 📸 Demonstração
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Adicione imagens ou vídeos do funcionamento do sistema aqui.
 
-## License
+### Exemplos de imagens e vídeos:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Exemplo de Cadastro](caminho/para/imagem.jpg)
+
+[Assista o vídeo de demonstração](caminho/para/video.mp4)
+
+## ⚙️ Como Rodar o Projeto
+
+### Pré-requisitos
+
+- PHP 7.4 ou superior
+- Composer (para o Laravel)
+- MySQL ou MariaDB
+- Node.js (para o frontend)
+
+### Passos para Executar
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/teste-pratico-junior.git
+   ```
+
+2. **Configure o Banco de Dados**:
+   - Crie um banco de dados no MySQL chamado `usuarios_db`.
+   - Importe o arquivo `database.sql` para criar a tabela `usuarios`.
+
+3. **Instale as dependências**:
+   - Se estiver utilizando Laravel:
+     ```bash
+     cd seu-projeto
+     composer install
+     php artisan key:generate
+     ```
+
+4. **Configuração do `.env`**:
+   - Configure as variáveis de ambiente no arquivo `.env` para conectar o banco de dados MySQL.
+
+5. **Rodar o servidor**:
+   - Se estiver usando Laravel:
+     ```bash
+     php artisan serve
+     ```
+
+6. **Acessar o sistema**:
+   Abra o navegador e vá para `http://localhost:8000` para começar a usar o sistema.
+
+## 📑 Estrutura do Projeto
+
+- **public/**: Arquivos públicos como CSS, JS e imagens.
+- **resources/views/**: Arquivos Blade (se estiver usando Laravel) ou arquivos de frontend em HTML.
+- **app/Http/Controllers/**: Controladores para as funcionalidades do sistema.
+- **database/migrations/**: Arquivos de migração do banco de dados (para Laravel).
+- **routes/web.php**: Definição das rotas (se estiver usando Laravel).
+- **.env**: Arquivo de configuração do ambiente.
+
+## 🧑‍💻 Contribuições
+
+Sinta-se à vontade para contribuir com melhorias no projeto. Caso tenha sugestões ou correções, abra uma **issue** ou envie um **pull request**!
+
+---
+
+**Boa sorte!** 🎉
+```
+
+### Explicação:
+
+- O arquivo `README.md` começa com uma descrição do projeto e o objetivo do teste prático.
+- Incluímos a descrição das funcionalidades, tecnologias e requisitos do sistema, detalhando cada uma das etapas que você implementou.
+- Também inclui uma seção para **demonstração do projeto** onde você pode adicionar imagens ou vídeos mostrando o funcionamento do sistema.
+- A seção **Como Rodar o Projeto** é uma instrução clara de como o usuário pode rodar o projeto localmente, com todos os passos necessários.
+- Por fim, há uma estrutura básica do projeto e uma sugestão de como contribuir.
+
+Você pode personalizar as imagens e vídeos com links reais quando os tiver!
