@@ -1,14 +1,9 @@
 # Teste Prático - Desenvolvedor Web Júnior
 
-🎯 **Objetivo**: Avaliar seus conhecimentos em PHP, HTML, CSS, JavaScript e MySQL através do desenvolvimento de um sistema web simples e funcional. Tanto o backend quanto o frontend serão criteriosamente avaliados.
+🎯 **Objetivo**: Desenvolver um sistema de cadastro de usuários utilizando framework PHP Laravel, HTML, CSS, JavaScript e banco de dados MySQL.
 
-## 🚀 Desafio
-
-Desenvolver um sistema de cadastro de usuários.
 
 ### Funcionalidades
-
-Você deve criar um sistema web que permita:
 
 1. Cadastro de novos usuários.
 2. Listagem dos usuários cadastrados.
@@ -40,16 +35,6 @@ Você deve criar um sistema web que permita:
 ### 5. Banco de Dados (MySQL):
 - Tabela `usuarios` com os campos: `id`, `nome`, `email`, `senha`.
 
-## 📐 Critérios de Avaliação
-
-1. **Organização e estrutura do código**: Código bem estruturado, legível e com boas práticas de organização.
-2. **Funcionalidade do sistema**: O sistema deve funcionar corretamente, permitindo realizar as operações de cadastro, listagem, edição e exclusão de usuários.
-3. **Uso correto das tecnologias solicitadas**: Utilização adequada de HTML, CSS, JavaScript, PHP (ou Laravel) e MySQL.
-4. **Boas práticas de programação**: Utilização de boas práticas como nomeação de variáveis, funções, e organização de arquivos.
-5. **Validação e tratamento de erros**: Implementação de validações tanto no frontend quanto no backend, com mensagens de erro claras e úteis.
-6. **Qualidade do frontend**: Design intuitivo, responsividade e usabilidade.
-7. **Implementação eficiente do backend**: Implementação segura, com boas práticas de performance, segurança e estrutura no backend.
-
 ## 📸 Demonstração
 
 Adicione imagens ou vídeos do funcionamento do sistema aqui.
@@ -73,40 +58,34 @@ Adicione imagens ou vídeos do funcionamento do sistema aqui.
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/teste-pratico-junior.git
+   git clone https://github.com/FIXER3600/teste-chromasoft.git
    ```
 
-2. **Configure o Banco de Dados**:
-   - Crie um banco de dados no MySQL chamado `usuarios_db`.
-   - Importe o arquivo `database.sql` para criar a tabela `usuarios`.
+2. **Instale as dependências do Composer**: ```bash composer install ``` 
 
-3. **Instale as dependências**:
-   - Se estiver utilizando Laravel:
-     ```bash
-     cd seu-projeto
-     composer install
-     php artisan key:generate
-     ```
+3. **Configure suas variáveis de ambiente**: `.env.example` para `.env` e configure suas variáveis de ambiente.
 
-4. **Configuração do `.env`**:
-   - Configure as variáveis de ambiente no arquivo `.env` para conectar o banco de dados MySQL.
+4. **Gere a chave da aplicação**: ```bash php artisan key:generate ``` 
 
-5. **Rodar o servidor**:
-   - Se estiver usando Laravel:
+5. **Execute as migrations e seeders**: ```bash php artisan migrate --seed ```
+
+
+6. **Rodar o servidor**:
+
      ```bash
      php artisan serve
      ```
 
-6. **Acessar o sistema**:
+7. **Acessar o sistema**:
    Abra o navegador e vá para `http://localhost:8000` para começar a usar o sistema.
 
 ## 📑 Estrutura do Projeto
 
 - **public/**: Arquivos públicos como CSS, JS e imagens.
-- **resources/views/**: Arquivos Blade (se estiver usando Laravel) ou arquivos de frontend em HTML.
+- **resources/views/**: Arquivos Blade ou arquivos de frontend em HTML.
 - **app/Http/Controllers/**: Controladores para as funcionalidades do sistema.
 - **database/migrations/**: Arquivos de migração do banco de dados (para Laravel).
-- **routes/web.php**: Definição das rotas (se estiver usando Laravel).
+- **routes/web.php**: Definição das rotas.
 - **.env**: Arquivo de configuração do ambiente.
 
 
