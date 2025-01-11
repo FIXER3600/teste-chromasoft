@@ -88,13 +88,4 @@ Adicione imagens ou vídeos do funcionamento do sistema aqui.
 7. **Acessar o sistema**:
    Abra o navegador e vá para `http://localhost:8000` para começar a usar o sistema.
 
-## 📑 Estrutura do Projeto
-
-- **public/**: Arquivos públicos como CSS, JS e imagens.
-- **resources/views/**: Arquivos Blade ou arquivos de frontend em HTML.
-- **app/Http/Controllers/**: Controladores para as funcionalidades do sistema.
-- **database/migrations/**: Arquivos de migração do banco de dados (para Laravel).
-- **routes/web.php**: Definição das rotas.
-- **.env**: Arquivo de configuração do ambiente.
-
 
