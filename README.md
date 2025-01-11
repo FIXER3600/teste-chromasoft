@@ -41,9 +41,9 @@ Adicione imagens ou vídeos do funcionamento do sistema aqui.
 
 ### Exemplos de imagens e vídeos:
 
-![Exemplo de Cadastro](caminho/para/imagem.jpg)
+![Lista de Usuarios](https://github.com/user-attachments/assets/fefa5ad2-a232-4890-8e8e-2fde3a4ef861)
 
-[Assista o vídeo de demonstração](caminho/para/video.mp4)
+[Assista o vídeo de demonstração](https://github.com/user-attachments/assets/3f686dcc-c3ad-4d49-ad7b-936c7b225930)
 
 ## ⚙️ Como Rodar o Projeto
 
